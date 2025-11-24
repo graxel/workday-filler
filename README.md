@@ -2,8 +2,8 @@
 
 ### Setup
 1. Make sure you have UV set up.
-2. Run `uv sync --all-groups`
-3. Update `wdf.py` with your own information
+2. Run `uv sync --all-groups`.
+3. Update `example.env` with your own information and save as `.env`.
 4. Replace `resume.pdf` and `resume.json` with your own files.
 
 ### Use
