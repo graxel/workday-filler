@@ -1642,6 +1642,7 @@ name = "workday-filler"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "beautifulsoup4" },
     { name = "python-dotenv" },
     { name = "selenium" },
 ]
@@ -1654,6 +1655,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "beautifulsoup4", specifier = ">=4.14.2" },
     { name = "python-dotenv", specifier = ">=1.2.1" },
     { name = "selenium", specifier = ">=4.38.0" },
 ]
